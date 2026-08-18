@@ -4,6 +4,24 @@ A production-oriented Next.js + TypeScript + PostgreSQL application foundation f
 
 ## Current development stage
 
+This is the active development master. The current iteration adds the first end-to-end collaboration workflow: applicants can track proposals, project owners can review/shortlist/accept/reject applications, accepted collaborators can be connected to a protected project conversation, and project owners can control the project lifecycle.
+
+### Implemented in the latest iteration
+- Applicant "My applications" workspace
+- Owner "My projects" management workspace
+- Server-side application status authorization
+- Accept & hire workflow with automatic rejection of competing pending applications
+- Project lifecycle controls
+- Project management audit logging
+- Protected project conversations
+- Secure conversation membership checks
+- Persistent messages and unread/read state foundations
+- Message notifications
+- Activity API and mark-all-read UI
+- Navigation for applications, projects and messages
+- Prisma relation/index hardening for payments, verification reviewers and message attachments
+
+
 This repository is the **development master**, not a finished production launch. It is intentionally designed so the business-specific workflows can be added without replacing the architecture.
 
 ### Implemented in this iteration
